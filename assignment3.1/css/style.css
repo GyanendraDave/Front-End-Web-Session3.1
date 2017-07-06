@@ -1,0 +1,17 @@
+/*CSS*/
+*{margin:0;padding:0;box-sizing:border-box}
+img{max-width: 100%;}
+
+/*** Header start***/
+header{width:100%;height:50px;background:#454545;text-align:center;display:flex;justify-content:center;align-items:center;color:#fff;font-size:24px}
+
+/*** Main container start***/    
+.container{width:90%;margin:30px auto;border:1px solid #ddd;padding:20px;max-width:600px}
+
+/*** Wordpress theme select start***/  
+.browse_img_block{margin:20px 0}    
+.button-search.file-browse{background:#097f03;border:none;padding:8px 10px;color:#fff;border-radius:3px}    
+.button-search.file-browse:hover{background:#0a9103;border: none;padding: 8px 10px;color: #fff}    
+.search-field{height:30px;padding:5px}    
+.button-search-icon{background: url(../images/icon-wp.png)no-repeat center center;border:none;width:32px;height:32px;font-size:0;position:relative;top:-4px}    
+.button-search-icon:hover{opacity:.8}
